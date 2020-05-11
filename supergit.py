@@ -22,7 +22,7 @@ main.title("superGit")
 # DEFINE FUNCTIONS FOR LATER USE
 # GIT PULL
 def pull(branch, origin):
-    gitpull = run(["git", "pull", origin, branch], shell=False, stdout=p, stderr=p])
+    gitpull = run(["git", "pull", origin, branch], shell=False, stdout=p, stderr=p)
     gitPullOutput = gitpull.communicate()
     if gitPullOutput == "<enter thingy here>":
         pass
