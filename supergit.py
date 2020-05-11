@@ -43,4 +43,8 @@ def add(file):
 Label(main, text="underDevelopment").pack()
 # CREATE WIDGETS
 
+# START MAINLOOP
+main.mainloop()
+# START MAINLOOP
+
 # TO UNDERSTAND RECURSION, SEE THE TOP OF THIS FILE
