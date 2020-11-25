@@ -20,27 +20,11 @@ main.title("superGit")
 # SET UP WINDOW
 
 # DEFINE FUNCTIONS FOR LATER USE
-# GIT PULL
-def pull(branch, origin):
-    gitpull = run(["git", "pull", origin, branch], shell=False, stdout=p, stderr=p)
-    gitPullOutput = gitpull.communicate()
-    if gitPullOutput == "<enter thingy here>":
-        pass
-    else:
-        pass
-# GIT ADD
-def add(file):
-    gitadd = run(["git", "add", file], shell=False, stdout=p, stderr=p)
-    gitaddData = gitadd.communicate()
-    if gitaddData == "<insert>":
-        pass
-    else:
-        pass
-# MORE TO COME LATER!
+from pyGit import *
 # DEFINE FUNCTIONS FOR LATER USE
 
 # CREATE WIDGETS
-Label(main, text="underDevelopment").pack()
+Label(main, text="Nothing to see here...").pack()
 # CREATE WIDGETS
 
 # START MAINLOOP
